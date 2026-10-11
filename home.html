@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+       <img width="200" height="200"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS024MDOZQQjs2KPWtcSAefYqaJq715Bjw2Rv-hMbSlUCNVBSrKfiRBrWbl&s=10" alt="">
+       <h1>STUDENT REGISTRATION FORM</h1>
+   <!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <form>
+        <table border="0" cellpadding="8">
+            <!-- FIRST NAME -->
+            <tr>
+                <td align="left">
+                    <label for="first_name">FIRST NAME</label>
+                </td>
+                <td>
+                    <input type="text" id="first_name" name="first_name" maxlength="30" pattern="[A-Za-z]+" placeholder="Enter the First Name">
+                    (max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <!-- LAST NAME -->
+            <tr>
+                <td align="left">
+                    <label for="last_name">LAST NAME</label>
+                </td>
+                <td>
+                    <input type="text" id="last_name" name="last_name" maxlength="30" pattern="[A-Za-z]+" placeholder="Enter the Last Name">
+                    (max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <!-- DATE OF BIRTH -->
+            <tr>
+                <td align="left">
+                    <label for="dob">DATE OF BIRTH</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="dob">
+                </td>
+            </tr>
+
+            <!-- EMAIL ID -->
+            <tr>
+                <td align="left">
+                    <label for="email">EMAIL ID</label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" placeholder="Enter the Email Address">
+                </td>
+            </tr>
+
+            <!-- MOBILE NUMBER -->
+            <tr>
+                <td align="left">
+                    <label for="mobile">MOBILE NUMBER</label>
+                </td>
+                <td>
+                    <input type="text" id="mobile" name="mobile" maxlength="10" pattern="\d{10}" placeholder="Enter the Mobile Number">
+                    (10 Digits Numbers)
+                </td>
+            </tr>
+
+            <!-- GENDER -->
+            <tr>
+                <td align="left">GENDER</td>
+                <td>
+                    Male <input type="radio" name="gender" value="Male">
+                    Female <input type="radio" name="gender" value="Female">
+                </td>
+            </tr>
+
+            <!-- ADDRESS -->
+            <tr>
+                <td align="left" valign="top">
+                    <label for="address">ADDRESS</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" rows="5" cols="40"></textarea>
+                </td>
+            </tr>
+
+            <!-- CITY -->
+            <tr>
+                <td align="left">
+                    <label for="city">CITY</label>
+                </td>
+                <td>
+                    <input type="text" id="city" name="city" maxlength="30" pattern="[A-Za-z]+" placeholder="Enter the City Name">
+                    (max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <!-- PIN CODE -->
+            <tr>
+                <td align="left">
+                    <label for="pincode">PIN CODE</label>
+                </td>
+                <td>
+                    <input type="text" id="pincode" name="pincode" maxlength="6" pattern="\d{6}" placeholder="Enter the Pin Code">
+                    (6 Digits Numbers)
+                </td>
+            </tr>
+
+            <!-- STATE -->
+            <tr>
+                <td align="left">
+                    <label for="state">STATE</label>
+                </td>
+                <td>
+                    <input type="text" id="state" name="state" maxlength="30" pattern="[A-Za-z]+" placeholder="Enter the State">
+                    (max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+
+            <!-- COUNTRY -->
+            <tr>
+                <td align="left">
+                    <label for="country">COUNTRY</label>
+                </td>
+                <td>
+                    <input type="text" id="country" name="country" placeholder="Enter the Country Name">
+                </td>
+            </tr>
+
+            <!-- HOBBIES -->
+            <tr>
+                <td align="left">HOBBIES</td>
+                <td>
+                    Drawing <input type="checkbox" name="hobbies" value="Drawing">
+                    Singing <input type="checkbox" name="hobbies" value="Singing">
+                    Dancing <input type="checkbox" name="hobbies" value="Dancing">
+                    Sketching <input type="checkbox" name="hobbies" value="Sketching">
+                </td>
+                <!DOCTYPE html>
+<html>
+<head>
+    <title>Qualification Form</title>
+</head>
+<body>
+
+    <form>
+        <table border="0" cellpadding="6" cellspacing="0">
+            <!-- QUALIFICATION SECTION -->
+            <tr>
+                <td align="left" valign="top">
+                    <font face="Times New Roman">QUALIFICATION</font>
+                </td>
+                <td align="left" valign="top">
+                    <table border="0" cellpadding="4" cellspacing="0">
+                        <tr>
+                            <td align="left"><b><font face="Times New Roman">Sl.No.</font></b></td>
+                            <td align="left"><b><font face="Times New Roman">Examination</font></b></td>
+                            <td align="center"><b><font face="Times New Roman">Board</font></b></td>
+                            <td align="center"><b><font face="Times New Roman">Percentage</font></b></td>
+                            <td align="center"><b><font face="Times New Roman">Year of passing</font></b></td>
+                        </tr>
+                        <!-- Row 1: Class X -->
+                        <tr>
+                            <td><font face="Times New Roman">1</font></td>
+                            <td><font face="Times New Roman">Class X</font></td>
+                            <td><input type="text" name="board_1" size="20" maxlength="10"></td>
+                            <td><input type="text" name="percent_1" size="20"></td>
+                            <td><input type="text" name="year_1" size="20"></td>
+                        </tr>
+                        <!-- Row 2: Class XII -->
+                        <tr>
+                            <td><font face="Times New Roman">2</font></td>
+                            <td><font face="Times New Roman">Class XII</font></td>
+                            <td><input type="text" name="board_2" size="20" maxlength="10"></td>
+                            <td><input type="text" name="percent_2" size="20"></td>
+                            <td><input type="text" name="year_2" size="20"></td>
+                        </tr>
+                        <!-- Row 3: Graduation -->
+                        <tr>
+                            <td><font face="Times New Roman">3</font></td>
+                            <td><font face="Times New Roman">Graduation</font></td>
+                            <td><input type="text" name="board_3" size="20" maxlength="10"></td>
+                            <td><input type="text" name="percent_3" size="20"></td>
+                            <td><input type="text" name="year_3" size="20"></td>
+                        </tr>
+                        <!-- Row 4: Masters -->
+                        <tr>
+                            <td><font face="Times New Roman">4</font></td>
+                            <td><font face="Times New Roman">Masters</font></td>
+                            <td><input type="text" name="board_4" size="20" maxlength="10"></td>
+                            <td><input type="text" name="percent_4" size="20"></td>
+                            <td><input type="text" name="year_4" size="20"></td>
+                        </tr>
+                        <!-- Row 5: Field hints -->
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td align="center"><font face="Times New Roman">(10 char max)</font></td>
+                            <td align="center"><font face="Times New Roman">upto 2 decimal</font></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- Spacing Row -->
+            <tr><td colspan="2" height="10"></td></tr>
+
+            <!-- COURSES APPLIED FOR -->
+            <tr>
+                <td align="left" valign="middle">
+                    <font face="Times New Roman">COURSES<br>APPLIED FOR</font>
+                </td>
+                <td align="left" valign="middle">
+                    <select name="course">
+                        <option value="">Select any course</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- Spacing Row -->
+            <tr><td colspan="2" height="10"></td></tr>
+
+            <!-- UPLOAD PIC -->
+            <tr>
+                <td align="left" valign="middle">
+                    <font face="Times New Roman">Upload you pic<br>(only .png,.jpg,.jpeg<br>formats allow)</font>
+                </td>
+                <td align="left" valign="middle">
+                    <input type="file" name="pic" accept=".png,.jpg,.jpeg">
+                </td>
+            </tr>
+
+            <!-- Spacing Row -->
+            <tr><td colspan="2" height="15"></td></tr>
+
+            <!-- BUTTONS -->
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">&nbsp;
+                    <input type="reset" value="Reset">
+                </td>
+            
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
+</body>
+</html>
